@@ -20,6 +20,16 @@ The design includes datapath components such as ALU, Instruction Memory, Data Me
 - `MUX.v` → Multiplexer modules  
 - Testbenches for each module  
 
+
 ---
 
-## 📂 Project Structure
+## 🚀 How to Run
+1. Open project in ModelSim / Vivado / Icarus Verilog.  
+2. Compile the Verilog files.  
+3. Run testbenches to verify functionality.  
+
+---
+
+## 👨‍💻 Author
+Developed by **Mahmoud** 
+GitHub: [Mahmoud-m-fawzy](https://github.com/Mahmoud-m-fawzy)
