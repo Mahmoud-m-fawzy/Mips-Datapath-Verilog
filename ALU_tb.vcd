@@ -1,0 +1,71 @@
+$date
+	Wed Dec 25 00:34:12 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module MIPS_ALU_tb $end
+$var wire 1 ! Zero $end
+$var wire 32 " ALUResult [31:0] $end
+$var reg 32 # A [31:0] $end
+$var reg 4 $ ALUControl [3:0] $end
+$var reg 32 % B [31:0] $end
+$scope module uut $end
+$var wire 32 & A [31:0] $end
+$var wire 4 ' ALUControl [3:0] $end
+$var wire 32 ( B [31:0] $end
+$var reg 32 ) ALUResult [31:0] $end
+$var reg 1 ! Zero $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b0 )
+b1111000011110000111100001111 (
+b0 '
+b11110000111100001111000011110000 &
+b1111000011110000111100001111 %
+b0 $
+b11110000111100001111000011110000 #
+b0 "
+1!
+$end
+#1
+0!
+b11111111111111111111111111111111 "
+b11111111111111111111111111111111 )
+b1 $
+b1 '
+#2
+b11110 "
+b11110 )
+b10 $
+b10 '
+b10100 %
+b10100 (
+b1010 #
+b1010 &
+#3
+1!
+b0 "
+b0 )
+b110 $
+b110 '
+b10100 #
+b10100 &
+#4
+0!
+b1 "
+b1 )
+b111 $
+b111 '
+b1111 #
+b1111 &
+#5
